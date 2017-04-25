@@ -1,0 +1,21 @@
+body {
+    background: rgb(204,204,204);
+}
+
+#heading {
+    text-align: center;
+}
+
+.articles {
+    background: rgb(240,240,240);
+    padding: 10px;
+}
+
+.wiki_links {
+    background: rgb(240,240,240);
+    float: right;
+    position: relative;
+    bottom: 100px;
+    padding: 10px;
+    max-width: 200px;
+}
