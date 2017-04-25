@@ -54,6 +54,19 @@ function loadData() {
     
     // Why does this variable runs?
     // We didn't even called it?
+    
+    // Reason:
+    
+    /*
+     var hello = (function(){
+      console.log("Hello");  
+    })();
+    */
+    
+    /*
+        We are assigning the immediately invoked function
+        a name - setTimeout
+    */
     var wikiRequestTimeout = setTimeout(function(){
         $wikiElem.text("Failed to get wikipedia resource");
     },8000);
@@ -61,6 +74,8 @@ function loadData() {
     /*var hello = function(){
             console.log("Hello World");
     };*/
+    
+   
     
     $.ajax( {
     url: wikiUrl,
